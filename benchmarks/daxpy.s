@@ -5,6 +5,7 @@
 	.bss 
 	X: .zero  32768        // vector X(4096)*8
 	Y: .zero  32768        // Vector Y(4096)*8
+        Z: .zero  32768        // Vector Y(4096)*8
 
 	.arch armv8-a
 	.text
@@ -27,6 +28,7 @@ main:
     	ldr     x10, =Alpha
     	ldr     x2, =X
     	ldr     x3, =Y
+	ldr     x4, =Z
 
 //---------------------- CODE HERE ------------------------------------
 

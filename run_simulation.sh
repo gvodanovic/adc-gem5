@@ -7,7 +7,7 @@ RESULT_PATH="se_results"
 
 # Definir el benchmark a correr, opciones: daxpy, simFisica, bubbleSort
 if [ -z $BENCHMARK ]; then
-    BENCHMARK="simFisica"
+    BENCHMARK="daxpy"
 fi
 
 # Definir el procesador a utilizar, opciones: in_order, out_of_order, etc.
